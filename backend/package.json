@@ -1,0 +1,21 @@
+{
+  "name": "photo-gallery-backend",
+  "version": "1.0.0",
+  "description": "Cross-platform Photo Gallery and Album Management Backend",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test tests/**/*.test.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1164.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.0.2",
+    "sharp": "^0.35.5",
+    "uuid": "^13.0.0"
+  }
+}

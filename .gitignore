@@ -1,0 +1,16 @@
+node_modules/
+backend/node_modules/
+mobile/node_modules/
+mobile/.expo/
+backend/storage/incoming/*
+!backend/storage/incoming/.gitkeep
+backend/storage/processed/*
+!backend/storage/processed/.gitkeep
+backend/data/*.db
+backend/data/*.db-wal
+backend/data/*.db-shm
+.env
+*.env
+!.env.example
+.DS_Store
+Thumbs.db

@@ -1,0 +1,10 @@
+{
+  "name": "photo-gallery-app-root",
+  "version": "1.0.0",
+  "description": "Photo Gallery and Album Management Application - Single Unified Server",
+  "scripts": {
+    "start": "cd backend && node src/server.js",
+    "test": "cd backend && npm test",
+    "build:frontend": "cd mobile && npx expo export --platform web --output-dir ../backend/public"
+  }
+}
